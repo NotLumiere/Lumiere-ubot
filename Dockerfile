@@ -4,7 +4,7 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Ayiin-Userbot https://github.com/NotLumiere/Lumiere-ubot /home/Lumiereubot/ \
+RUN git clone -b Lumiere-Userbot https://github.com/NotLumiere/Lumiere-ubot /home/Lumiereubot/ \
     && chmod 777 /home/Lumiereubot \
     && mkdir /home/Lumiereubot/bin/
 
