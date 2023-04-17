@@ -10,7 +10,7 @@ RUN git clone -b Ayiin-Userbot https://github.com/NotLumiere/Lumiere-ubot /home/
 
 COPY ./sample_config.env ./config.env* /home/Lumiereubot/
 
-WORKDIR /home/lumiereubot/
+WORKDIR /home/Lumiereubot/
 
 RUN pip install -r requirements.txt
 
