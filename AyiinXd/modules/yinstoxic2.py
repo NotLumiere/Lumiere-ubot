@@ -130,7 +130,7 @@ async def _(kontol):
 
 CMD_HELP.update(
     {
-        "yinstoxic2": f"**Plugin : **`yinstoxic2`\
+        "Toxic2": f"**Plugin : **`Toxic2`\
         \n\n  »  **Perintah :** `{cmd}ngentot`\
         \n  »  **Kegunaan : **Cobain sendiri tod\
         \n\n  »  **Perintah :** `{cmd}goblok`\
