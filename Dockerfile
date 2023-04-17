@@ -5,8 +5,8 @@
 FROM ayiinxd/ayiin-userbot:buster
 
 RUN git clone -b Ayiin-Userbot https://github.com/NotLumiere/Lumiere-ubot /home/Lumiereubot/ \
-    && chmod 777 /home/lumiereubot \
-    && mkdir /home/lumiereubot/bin/
+    && chmod 777 /home/Lumiereubot \
+    && mkdir /home/Lumiereubot/bin/
 
 COPY ./sample_config.env ./config.env* /home/Lumiereubot/
 
