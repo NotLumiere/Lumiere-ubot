@@ -2,13 +2,13 @@
 #      Created by: Alfa-Ex
 #=========× AyiinXd ×=========#
 
-FROM notlumiere/lumiere-ubot:buster
+FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Ayiin-Userbot https://github.com/NotLumiere/Lumiere-ubot /home/lumiereubot/ \
-    && chmod 777 /home/Lumiereubot \
-    && mkdir /home/Lumiereubot/bin/
+RUN git clone -b Ayiin-Userbot https://github.com/NotLumiere/Lumiere-ubot /home/Lumiereubot/ \
+    && chmod 777 /home/lumiereubot \
+    && mkdir /home/lumiereubot/bin/
 
-COPY ./sample_config.env ./config.env* /home/lumiereubot/
+COPY ./sample_config.env ./config.env* /home/Lumiereubot/
 
 WORKDIR /home/lumiereubot/
 
