@@ -2,7 +2,7 @@
 #      Created by: Alfa-Ex
 #=========× AyiinXd ×=========#
 
-FROM notlumiere/lumiere-ubot:buster
+FROM notlumiere/Ayiin-Userbot:buster
 
 RUN git clone -b Lumiere-ubot https://github.com/NotLumiere/Lumiere-ubot /home/lumiereubot/ \
     && chmod 777 /home/Lumiereubot \
