@@ -1,6 +1,6 @@
 {
-  "name": "⋆ 𝘼𝙮𝙞𝙞𝙣-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
-  "description": "[Ayiin-Userbot] Userbot Hanya Untuk Bersenang - Senang",
+  "name": "⋆ 𝗟𝘂𝗺𝗶𝗲𝗿𝗲-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 ⋆",
+  "description": "[Lumiere-Userbot] Userbot Hanya Untuk Bersenang - Senang",
   "logo": "https://telegra.ph/file/c6a0aef41355af5a018c6.jpg",
   "keywords": ["telegram", "userbot", "Lumiere-ubot", "modular", "python"],
   "repository": "https://github.com/NotLumiere/Lumiere-ubot",
@@ -51,7 +51,7 @@
   "formation": {
     "ayiin": {
       "quantity": 1,
-      "size": "eco"
+      "size": "Basic"
     }
   }
 }
