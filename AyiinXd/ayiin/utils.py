@@ -58,8 +58,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="Lumiere-Userbot Logs",
-                about="» Group log Created by: Lumiere-ubot\n\n» Support : @Lumieresupport\n» Support: @gabutanlu",
+                title="Lᴜᴍɪᴇʀᴇ-Usᴇʀʙᴏᴛ Lᴏɢs",
+                about="» Group log Created by: Lumiere-Userbot \n\n» Support : @Lumieresupport\n» Support: @Gabutanlu",
                 megagroup=True,
             ),
         )
@@ -77,7 +77,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph//file/d470d2198c4f6ce16a12b.jpg", "https://telegra.ph/file/5b7d67ea4eef28837086d.jpg"
+            "", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -98,9 +98,9 @@ async def autobot():
     await bot.start()
     await asyncio.sleep(15)
     await bot.send_message(
-        BOTLOG_CHATID, "**SABAR KENTOD LAGI BUAT ASSISTANT BOT LU DI @BotFather**"
+        BOTLOG_CHATID, "**SABAR SAYANG LAGI BUAT ASSISTANT BOT KAMU DI @BotFather**"
     )
-    LOGS.info("TUNGGU SEBENTAR TOD. SEDANG MEMBUAT ASSISTANT BOT UNTUK ELU")
+    LOGS.info("TUNGGU SEBENTAR SAYANG. SEDANG MEMBUAT ASSISTANT BOT UNTUK KAMU")
     who = await bot.get_me()
     name = f"{who.first_name} Assistant Bot"
     if who.username:
@@ -136,7 +136,7 @@ async def autobot():
     filogo = random.choice(
           [
               "https://telegra.ph/file/5b7d67ea4eef28837086d.jpg",
-              "https://telegra.ph//file/d470d2198c4f6ce16a12b.jpg",
+              "AyiinXd/resources/logo.jpg",
           ]
     )
     await bot.send_message(bf, username)
@@ -145,7 +145,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"Ayiin{(str(who.id))[6:]}{str(ran)}bot"
+        username = f"Lumi{(str(who.id))[6:]}{str(ran)}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -174,17 +174,17 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Lumieresupport ✨"
+                bf, f"⚠️ Owner ~ {who.first_name} ⚠️\n\n⚠️ Powered By ~ @Gabutanlu ⚠️"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"**BERHASIL MEMBUAT ASSISTANT BOT LU DENGAN USERNAME @{username}**",
+                f"**BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}**",
             )
             LOGS.info(
-                f"BERHASIL MEMBUAT ASSISTANT BOT LU DENGAN USERNAME @{username}")
+                f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**SEDANG MERESTART USERBOT HARAP TUNGGU KONTOL.**",
+                "**SEDANG MERESTART USERBOT TUNGGU SEBENTAR SAYANG.**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -218,17 +218,17 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Lumieresupport ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @punyaionnibos ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
-            f"**BERHASIL MEMBUAT ASSISTANT BOT LU DENGAN USERNAME @{username}**",
+            f"**BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}**",
         )
         LOGS.info(
-            f"BERHASIL MEMBUAT ASSISTANT BOT DENGAN USERNAME @{username}")
+            f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**SEDANG MERESTART USERBOT HARAP TUNGGU ANJING.**",
+            "**SEDANG MERESTART USERBOT TUNGGU SEBENTAR SAYANG.**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
