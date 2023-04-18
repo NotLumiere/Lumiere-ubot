@@ -71,7 +71,8 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/NotLumiere/Lumiere-ubot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/NotLumiere/Lumiere-ubot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+</div>
 
 </details>
 
@@ -99,5 +100,3 @@ Follow Channel [@Lumiere](https://t.me/gabutanlu) untuk info Update bot dan Gabu
 ## License
 Licensed under [Raphielscape Public License](https://github.com/Lumierexd/Lumiere-Userbot/blob/Lumiere-Userbot/LICENSE) - Version 1.d, February 2020
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/NotLumiere/Naya-pyrocus"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
-</div>
